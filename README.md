@@ -29,7 +29,12 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 
 
-Write the detailed procedure here 
+1.Connect the supply (+5V) to the circuit. 
+
+2.Switch ON the main switch. 
+
+3.If the output is 1, then the led glows
+
 
 
 ## Program:
@@ -61,18 +66,23 @@ endmodule
 
 ## Truthtable
 ### HALF SUBTRACTOR:
-
-
+![OUTPUT](1.png)
 
 
 ### FULL SUBTRACTOR:
 
-
+![OUTPUT](2.png)
 
 ##  RTL realization
+### HALF SUBTRACTOR:
+![OUTPUT](3.png)
 
-
+### FULL SUBTRACTOR:
+![OUTPUT](4.png)
 ## Timing diagram 
-
+### HALF SUBTRACTOR:
+![OUTPUT](5.png)
+### FULL SUBTRACTOR:
+![OUTPUT](6.png)
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
